@@ -9,6 +9,7 @@ namespace App1
     {
         static void Main(string[] args)
         {
+            var key = "b14ca5898a4e4133bbce2ea2315a1916";
             string name = string.Empty;
             HubConnection connection = new HubConnectionBuilder().WithUrl("https://localhost:44339/ChatHub").Build();
             connection.Closed += async (error) => {
