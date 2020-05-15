@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "E9QggbaARSwIu/UPi/Vv88sNd3OdYmMMJ2wTj16ZdxxLnj7h3RtYKvJp6cHcGZ+qH13fd4wQlAH75de4C7JBDg==",
+  "dgSpecHash": "kWfsuvA2o24UDb/dwPK2Hph/BEcZ+7GwyA9kfIVUbj5Fde0c4+8jqD/PHhMIGID260U5uM/yu2aLTOSfzBEaPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Documents\\Projeto\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\confluent.kafka\\1.4.0\\confluent.kafka.1.4.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\librdkafka.redist\\1.4.0\\librdkafka.redist.1.4.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

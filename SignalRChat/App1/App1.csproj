@@ -10,4 +10,16 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="3.1.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SignalRChat\SignalRChat.csproj" />
+    <ProjectReference Include="..\Simulador\Simulador.csproj" />
+    <ProjectReference Include="..\WebApp1\WebApp1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SimuladorDLL">
+      <HintPath>..\..\..\Projeto LandisGyr\SimuladorDLL\SimuladorDLL\bin\Debug\netstandard2.0\SimuladorDLL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
