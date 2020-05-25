@@ -2,17 +2,25 @@
 <div class="container">
     <div class="row">&nbsp;</div>
     <div class="row">
-        <div class="col-2">Equipament</div>
+        <div class="col-2">Equipamento</div>
         <div class="col-4">0001</div>
     </div>
     <div class="row">
-        <div class="col-2">Message</div>
-        <div class="col-4"><input type="text" id="messageInput" /></div>
+        <p>Selecione o procedimento desejado</p>
+        <p></p>
+        <form action="/action_page">
+            <label for="procedure">Escolha:</label>
+            <select name="procedures" id="procedures">
+                <option value="status">Status</option>
+                <option value="corte&Religa">Corte/Religa</option>
+                <option value="leitura">Reading</option>
+            </select>
+            <br><br>
+        </form>
     </div>
-    <div class="row">&anbsp;</div>
     <div class="row">
         <div class="col-6">
-            <input type="button" id="sendButton" value="Send Message" />
+            <input type="button" id="sendButton" value="OK" />
         </div>
     </div>
 </div>

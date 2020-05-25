@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Leitura
+namespace SimuladorApp
 {
-    class Program
+    class SimuladorC
     {
         public int Id { get; set; }
         public int Reading { get; set; }

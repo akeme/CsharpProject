@@ -184,3 +184,5 @@ C:\Users\Usuario\Documents\Projeto\SignalRChat\App1\bin\Debug\netcoreapp3.1\runt
 C:\Users\Usuario\Documents\Projeto\SignalRChat\App1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp120.dll
 C:\Users\Usuario\Documents\Projeto\SignalRChat\App1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcr120.dll
 C:\Users\Usuario\Documents\Projeto\SignalRChat\App1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\zlib.dll
+C:\Users\Usuario\Documents\Projeto\SignalRChat\App1\bin\Debug\netcoreapp3.1\SimuladorDLL.dll
+C:\Users\Usuario\Documents\Projeto\SignalRChat\App1\bin\Debug\netcoreapp3.1\SimuladorDLL.pdb

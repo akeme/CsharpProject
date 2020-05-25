@@ -2,6 +2,8 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using SimuladorDLL;
+
 
 
 namespace App1
@@ -11,9 +13,10 @@ namespace App1
         static void Main(string[] args)
         {
 
-           // var equipamento = new Leitura();
+            //var equipamento = new Leitura();
 
             //Thread oThread = new Thread();
+
             var key = "b14ca5898a4e4133bbce2ea2315a1916";
             string name = string.Empty;
             HubConnection connection = new HubConnectionBuilder().WithUrl("https://localhost:44339/ChatHub").Build();
