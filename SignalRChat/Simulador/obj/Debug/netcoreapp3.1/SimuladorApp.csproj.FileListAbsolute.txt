@@ -1,0 +1,13 @@
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\bin\Debug\netcoreapp3.1\SimuladorApp.exe
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\bin\Debug\netcoreapp3.1\SimuladorApp.deps.json
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\bin\Debug\netcoreapp3.1\SimuladorApp.runtimeconfig.json
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\bin\Debug\netcoreapp3.1\SimuladorApp.runtimeconfig.dev.json
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\bin\Debug\netcoreapp3.1\SimuladorApp.dll
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\bin\Debug\netcoreapp3.1\SimuladorApp.pdb
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.dll
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.pdb
+C:\Users\Usuario\Documents\Projeto\SignalRChat\Simulador\obj\Debug\netcoreapp3.1\SimuladorApp.genruntimeconfig.cache

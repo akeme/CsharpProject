@@ -2,49 +2,21 @@
 
 namespace SimuladorApp
 {
-    class SimuladorC
+    public class Simulador
     {
         public int Id { get; set; }
         public int Reading { get; set; }
         public bool StatusR { get; set; }
         public static bool Status { get; private set; }
-
-        public static void Main()
+        enum Request
         {
-            int opcao, valorLeitura;
-
-            Console.WriteLine("\nPress the Enter key to exit the application...\n");
-            Console.WriteLine("\nTestando...\n");
-            Console.WriteLine("digite 1 ou 2");
-
-            opcao = Convert.ToInt32(Console.ReadLine());
-            Status = OpcaoConv(opcao);
-
-            //opcao = 1;
-
-
-            // Status = opcao != 1;
-
-            //Status = true;
-            valorLeitura = Leitura(Status);
-            DateTime date = StatusSet(Status);
-
-            Console.WriteLine("o valor da leitura é {0}", valorLeitura);
-            Console.WriteLine("o valor inicial é {0}", date);
-
-
-            /*
-            Console.WriteLine("\nPress the Enter key to exit the application...\n");
-            Console.WriteLine("The application started at {0:HH:mm:ss.fff}", DateTime.Now);
-            Console.ReadLine();
-            aTimer.Stop();
-            aTimer.Dispose();
-
-            Console.WriteLine("Terminating the application...");
-    */
+            Reading,
+            CortaReliga,
+            EquipamentId
         }
 
-        private static int Leitura(bool status)
+
+        public static int Leitura(bool status)
         {
             DateTime date1 = new DateTime(2020, 04, 22, 0, 0, 0);
             DateTime date2 = DateTime.Now;
@@ -110,7 +82,6 @@ namespace SimuladorApp
 
 
         }
-
 
     }
 }

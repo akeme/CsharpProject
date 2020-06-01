@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Projeto\\SignalRChat\\Simulador\\Simulador.csproj",
-      "projectName": "Simulador",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\Projeto\\SignalRChat\\Simulador\\Simulador.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Projeto\\SignalRChat\\Simulador\\SimuladorApp.csproj",
+      "projectName": "SimuladorApp",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\Projeto\\SignalRChat\\Simulador\\SimuladorApp.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\Documents\\Projeto\\SignalRChat\\Simulador\\obj\\",
       "projectStyle": "PackageReference",
@@ -60,12 +60,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

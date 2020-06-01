@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.SignalR.Client;
+using SimuladorApp;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using SimuladorDLL;
 
 
 
@@ -12,6 +12,17 @@ namespace App1
     {
         static void Main(string[] args)
         {
+            int valorLeitura;
+            bool statusEquipamento;
+
+            int idEquipamento;
+
+            statusEquipamento = true;
+
+            valorLeitura = Simulador.Leitura(statusEquipamento);
+            DateTime date = Simulador.StatusSet(statusEquipamento);
+
+
 
             //var equipamento = new Leitura();
 
